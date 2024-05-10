@@ -7,6 +7,7 @@ PluginManager.setup($plugins);
 window.onload = function() {
     SceneManager.run(Scene_Boot);
 };
+
 $plugins=$plugins.concat([
     {
       name: 'AudioStreaming',
@@ -22,3 +23,4 @@ $plugins=$plugins.concat([
       parameters: {},
     },
   ])
+  
